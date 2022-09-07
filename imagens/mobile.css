@@ -1,0 +1,33 @@
+@media screen and (max-width:1040px) {
+    header{
+        height: 600px;
+        width: 100%;
+        background-image: linear-gradient(90deg, #da3f8c, #11b0bb);  
+    }
+
+    nav {
+        display:none;
+    }
+
+    .imagem-principal {
+        margin: 70px 70px 
+    }
+    
+    body {
+        width:100%;
+        color:coral;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .texto-sobre-mim {
+        position: absolute;
+        margin: 0;
+        z-index: 1;
+        width: 450px;
+    }
+
+    
+}

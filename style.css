@@ -1,0 +1,220 @@
+/*css header--------------------------------------------------------------------------*/
+body {
+    font-family:  'Inter', sans-serif;
+    position: relative;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    background-image: linear-gradient(90deg, #da3f8c, #11b0bb);
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+nav li {
+	display: inline;
+	margin: 0 100px;
+}
+
+nav a {
+    color: #efe5ff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #71c9cf;
+    transition: 1s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 500px;
+    background-image: linear-gradient(90deg, #da3f8c, #11b0bb);
+}
+
+header section {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+    color: #efe5ff;
+}
+
+.imagem-principal {
+    width: 280px;
+    height: 280px;
+    border-radius: 55%;
+    border: 9px solid #a899c4;
+    position: relative;
+    margin: 70px 70px 0px 600px;
+    display: block;
+}
+
+.titulo {
+    font-weight: lighter;
+    color: #efe5ff;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: 200px;
+    margin-top: 120px;
+    position: absolute;
+    line-height: 2px;
+}
+
+.titulo p {
+    font-style: italic;
+    font-size: 17px;
+}
+
+.tel {
+    display: block;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 250px;
+    font-weight: lighter;
+}
+
+.tel img {
+    width: 33px;
+    display: inline;
+    position: absolute;
+    margin: 6px 15px 0px -40px;
+}
+
+.email {
+    display: block;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 250px;
+    font-weight: lighter;
+}
+
+.email img {
+    width: 36px;
+    display: inline;
+    position: absolute;
+    margin: 10px 15px 0px -41px;
+}
+
+/*css main--------------------------------------------------------------------------*/
+main {
+    padding: 70px 150px;
+    background-color: #efe5ff;
+    color: #301538;
+}
+
+.texto-sobre-mim {
+    position: absolute;
+    margin-left: 470px;
+    width: 450px;
+}
+
+.imagem-bonitinha {
+    width: 400px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 0 2em #a899c4;
+    border-radius: 4%;
+}
+
+main h3 {
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+main li,p {
+    font-weight:lighter;
+    line-height: 20px;
+    text-align: justify;
+}
+
+main li {
+    list-style: none;
+}
+
+.caixas-li {
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    color: #efe5ff;
+    margin: 25px 25px;
+    padding: 30px;
+    text-align: center;
+    background-color: #6b6aa5;
+    box-shadow: 0 0 2em #a899c4;
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+
+#interesses li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.icones {
+    width: 50px;
+    transition: 0.5s transform;
+}
+
+.icones:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.display-texto {
+    display: none;
+}
+
+#texto-interesses {
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    color: #efe5ff;
+    padding: 15px;
+    line-height: 19px;
+    text-align: justify;
+    background-color: #6b6aa5;
+    box-shadow: 0 0 2em #a899c4;
+    box-sizing: border-box;
+    margin: 25px;
+    border-radius: 13px;
+}
+
+/*css footer--------------------------------------------------------------------------*/
+footer {
+    background-image: linear-gradient(90deg, #da3f8c, #11b0bb);
+    height: 250px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #efe5ff;
+    font-weight: bold;
+}
+.contato {
+    padding-top: 40px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    color: #efe5ff;
+}
+
+.creditos {
+    color: #efe5ff;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    margin-top: 150px;
+}
