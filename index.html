@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maura Luiza | Desenvolvedora Full Stack</title>
+    <meta name="description" content="Portfólio de Maura Luiza, Desenvolvedora Full Stack especializada em Java, JavaScript, HTML e CSS.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    
+    <!-- Background Circle for aesthetic atmosphere -->
+    <div class="background-glow"></div>
+
+    <header class="navbar">
+        <div class="container navbar-content">
+            <a href="#" class="logo">Maura<span class="dot">.</span></a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-item">Início</a>
+                <a href="#about" class="nav-item">Sobre</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projetos</a>
+                <a href="#contact" class="nav-item">Contato</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu">
+            <a href="#home" class="mobile-nav-item">Início</a>
+            <a href="#about" class="mobile-nav-item">Sobre</a>
+            <a href="#skills" class="mobile-nav-item">Skills</a>
+            <a href="#projects" class="mobile-nav-item">Projetos</a>
+            <a href="#contact" class="mobile-nav-item">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <span class="greeting">Olá, eu sou</span>
+                    <h1>Maura Luiza</h1>
+                    <h2 class="subtitle">Desenvolvedora Full Stack</h2>
+                    <p class="description">
+                        Transformando ideias em experiências digitais com Java, JavaScript, HTML, CSS e Git.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-outline">Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <!-- Placeholder image -->
+                        <div class="placeholder-img">
+                            <i data-lucide="user" size="64"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="glass-card about-card">
+                    <p>
+                        Sou uma desenvolvedora apaixonada por tecnologia e inovação. 
+                        Com foco em desenvolvimento Full Stack, busco criar soluções eficientes e elegantes 
+                        que resolvam problemas reais. Meu objetivo é evoluir constantemente, 
+                        aprendendo novas ferramentas e melhores práticas.
+                    </p>
+                    <div class="tech-stack-list">
+                        <span>☕ Java</span>
+                        <span>🌐 JavaScript</span>
+                        <span>🎨 Frontend Moderno</span>
+                        <span>🚀 Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Minhas Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i data-lucide="coffee" class="skill-icon"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="code" class="skill-icon"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="layout" class="skill-icon"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="palette" class="skill-icon"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="git-branch" class="skill-icon"></i>
+                        <h3>Git/GitHub</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="database" class="skill-icon"></i>
+                        <h3>SQL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projetos</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-img-placeholder"></div>
+                        <div class="project-content">
+                            <h3>Gestor de Tarefas</h3>
+                            <p>Uma aplicação web para organização de tarefas diárias com funcionalidades de CRUD.</p>
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>Spring</span>
+                                <span>React</span>
+                            </div>
+                            <a href="#" class="btn-link">Ver no GitHub <i data-lucide="arrow-right" class="icon-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-img-placeholder"></div>
+                        <div class="project-content">
+                            <h3>E-commerce View</h3>
+                            <p>Interface moderna de uma loja virtual responsiva, focada na experiência do usuário.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                            <a href="#" class="btn-link">Ver no GitHub <i data-lucide="arrow-right" class="icon-sm"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-img-placeholder"></div>
+                        <div class="project-content">
+                            <h3>Portfolio V1</h3>
+                            <p>Primeira versão do meu portfólio, utilizando conceitos fundamentais de web design.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <a href="#" class="btn-link">Ver no GitHub <i data-lucide="arrow-right" class="icon-sm"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="center-btn-container">
+                    <a href="#" class="btn btn-outline">Ver todos os projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="glass-card contact-card">
+                    <h2>Vamos conversar?</h2>
+                    <p>Estou disponível para novas oportunidades e colaborações. Entre em contato!</p>
+                    <a href="mailto:email@exemplo.com" class="btn btn-primary email-btn">
+                        <i data-lucide="mail"></i> Enviar E-mail
+                    </a>
+                    <div class="social-links">
+                        <a href="#" class="social-item" title="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="#" class="social-item" title="GitHub">
+                            <i data-lucide="github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Maura Luiza. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
