@@ -495,11 +495,13 @@ ul {
 }
 
 .btn-link:hover {
-    background: var(--primary-color);
-    border-color: var(--primary-color);
-    color: white;
+    background: transparent;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
     text-decoration: none;
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(140, 255, 186, 0.15);
+    /* Subtle green glow */
 }
 
 .center-btn-container {
