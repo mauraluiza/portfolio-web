@@ -95,13 +95,8 @@
                     </div>
 
                     <div class="about-actions" style="margin-top: 2rem;">
-                        <!-- 
-                            ⚠️ IMPORTANTE: 
-                            1. Salve seu currículo em PDF na pasta: assets/docs/
-                            2. Substitua 'curriculo.pdf' abaixo pelo nome exato do seu arquivo.
-                        -->
-                        <a href="assets/docs/curriculo.pdf" download="Currículo_Maura_Luiza.pdf"
-                            class="btn btn-primary">
+                        <a href="assets/docs/curriculo.pdf" target="_blank" rel="noopener no referrer"
+                            download="Currículo_Maura_Luiza.pdf" class="btn btn-outline">
                             <i data-lucide="download"></i> Baixar Currículo
                         </a>
                     </div>
@@ -149,7 +144,7 @@
                 <div class="projects-grid">
                     <!-- Project 1 -->
                     <article class="project-card">
-                        <div class="project-img-placeholder"></div>
+                        <img src="assets/img/task-manager.png" alt="Gestor de Tarefas" class="project-img">
                         <div class="project-content">
                             <h3>Gestor de Tarefas</h3>
                             <p>Uma aplicação web para organização de tarefas diárias com funcionalidades de CRUD.</p>
@@ -158,8 +153,13 @@
                                 <span>Spring</span>
                                 <span>React</span>
                             </div>
-                            <a href="#" class="btn-link">Ver no GitHub <i data-lucide="arrow-right"
-                                    class="icon-sm"></i></a>
+                            <div class="project-links">
+                                <a href="https://github.com/mauraluiza/gestor-de-tarefas" target="_blank"
+                                    class="btn-link"><i data-lucide="github" class="icon-sm"></i>Ver no GitHub</a>
+                                <!-- 👇 COLOQUE O LINK DA DEMO AQUI NO HREF 👇 -->
+                                <a href="#" class="btn-link" target="_blank"><i data-lucide="external-link"
+                                        class="icon-sm"></i>Ver Demo</a>
+                            </div>
                         </div>
                     </article>
 
@@ -169,32 +169,42 @@
                         <div class="project-content">
                             <h3>Gerador de Ofertas</h3>
                             <p>Projeto desenvolvido para a agência Nevada Turismo em Uberlândia-MG a fim de automatizar
-                                a
-                                criação de mensagens promocionais para envio em grupos de WhatsApp.</p>
+                                a criação de mensagens promocionais para envio em grupos de WhatsApp.</p>
                             <div class="project-tags">
                                 <span>HTML</span>
                                 <span>CSS</span>
                                 <span>JavaScript</span>
                                 <span>Flatpickr</span>
                             </div>
-                            <a href="https://github.com/mauraluiza/gerador-de-promocoes" target="_blank"
-                                class="btn-link">Ver no GitHub
-                                <i data-lucide="arrow-right" class="icon-sm"></i></a>
+                            <div class="project-links">
+                                <a href="https://github.com/mauraluiza/gerador-de-promocoes" target="_blank"
+                                    class="btn-link"><i data-lucide="github" class="icon-sm"></i>Ver no GitHub</a>
+                                <!-- 👇 COLOQUE O LINK DA DEMO AQUI NO HREF 👇 -->
+                                <a href="#" class="btn-link" target="_blank"><i data-lucide="external-link"
+                                        class="icon-sm"></i>Ver Demo</a>
+                            </div>
                         </div>
                     </article>
 
                     <!-- Project 3 -->
                     <article class="project-card">
-                        <div class="project-img-placeholder"></div>
+                        <img src="assets/img/orderTech.png" alt="OrderTech" class="project-img">
                         <div class="project-content">
-                            <h3>Portfolio V1</h3>
-                            <p>Primeira versão do meu portfólio, utilizando conceitos fundamentais de web design.</p>
+                            <h3>OrderTech</h3>
+                            <p>Aplicação desktop desenvolvida para gerenciamento completo de oficinas com gerenciamento
+                                de clientes, veículos serviços e relatórios completos.</p>
                             <div class="project-tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
+                                <span>Java</span>
+                                <span>SceneBuilder</span>
+                                <span>SQL</span>
                             </div>
-                            <a href="#" class="btn-link">Ver no GitHub <i data-lucide="arrow-right"
-                                    class="icon-sm"></i></a>
+                            <div class="project-links">
+                                <a href="https://github.com/mauraluiza/ordertech" target="_blank" class="btn-link"><i
+                                        data-lucide="github" class="icon-sm"></i>Ver no GitHub</a>
+                                <!-- 👇 COLOQUE O LINK DA DEMO AQUI NO HREF 👇 -->
+                                <a href="#" class="btn-link" target="_blank"><i data-lucide="external-link"
+                                        class="icon-sm"></i>Ver Demo</a>
+                            </div>
                         </div>
                     </article>
                 </div>
