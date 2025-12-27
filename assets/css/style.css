@@ -540,7 +540,7 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     .hero {
-        padding-top: 130px;
+        padding-top: 100px;
         /* Extra space for mobile navbar (especially iOS) */
         align-items: flex-start;
         /* Prevents vertical centering from pushing content up */
@@ -630,3 +630,15 @@ footer {
     object-fit: cover;
     border-bottom: 1px solid var(--glass-border);
 }
+.about-actions {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-actions .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
