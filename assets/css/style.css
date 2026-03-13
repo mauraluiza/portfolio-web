@@ -425,6 +425,10 @@ ul {
     overflow: hidden;
     transition: var(--transition-speed);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Ensures cards stretch to equal height */
 }
 
 .projects-grid .project-card:hover {
@@ -442,6 +446,9 @@ ul {
 
 .project-content {
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .project-content h3 {
@@ -473,7 +480,7 @@ ul {
 .project-links {
     display: flex;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: auto;
     flex-wrap: wrap;
 }
 
